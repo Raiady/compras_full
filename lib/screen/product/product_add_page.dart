@@ -80,7 +80,7 @@ class _ItenAddPageState extends State<ItemAddPage> {
                   keyboardType: TextInputType.text,
                   initialValue: widget.name,
                   decoration: InputDecoration(
-                    hintText: 'Sabor',
+                    hintText: 'Produto',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5),
                     ),

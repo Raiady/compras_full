@@ -33,26 +33,8 @@ class _MainPageState extends State<MainPage> {
             )
           ]),
       body: [
+        const ProductListPage(),
         const HomePage(),
-        const Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('Carrinho de Compras'),
-            ],
-          ),
-        ),
-        Center(
-          child: Container(
-            color: Colors.orange,
-            child: const Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text('Galeria de Produtos'),
-              ],
-            ),
-          ),
-        ),
         const UserProfilePage(),
       ][_index],
       bottomNavigationBar: NavigationBar(
@@ -68,12 +50,8 @@ class _MainPageState extends State<MainPage> {
             label: 'Home',
           ),
           NavigationDestination(
-            icon: Icon(Icons.shopping_cart_outlined),
-            label: 'Carrinho',
-          ),
-          NavigationDestination(
             icon: Icon(Icons.line_style_outlined),
-            label: 'Pedidos',
+            label: 'lista',
           ),
           NavigationDestination(
             icon: Icon(Icons.account_box_outlined),

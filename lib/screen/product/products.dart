@@ -87,7 +87,7 @@ class _ItemListPageState extends State<ItemListPage> {
                                                 ),
                                           ),
                                           Text(
-                                            docSnapshot['sabor'],
+                                            docSnapshot['name'],
                                             style:
                                                 const TextStyle(fontSize: 12),
                                           ),

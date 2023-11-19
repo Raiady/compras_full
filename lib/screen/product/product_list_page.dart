@@ -36,7 +36,9 @@ class _ProductListPageState extends State<ProductListPage> {
                   ),
                 ),
               ),
-              onChanged: (name) {},
+              onChanged: (name) {
+                
+              },
             ),
           ),
           const SizedBox(
